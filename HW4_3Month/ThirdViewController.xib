@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail" translatesAutoresizingMaskIntoConstraints="NO" id="PGM-Am-w2N">
+                    <rect key="frame" x="76" y="236" width="240" height="128"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for your interest." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fci-BF-vyA">
+                    <rect key="frame" x="87" y="406" width="254" height="41"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We will be in touch in day!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ec-ka-wlh">
+                    <rect key="frame" x="76" y="455" width="240" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJB-Uj-LF1">
+                    <rect key="frame" x="16" y="684" width="361" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="rEf-8B-kf9"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Continue">
+                        <color key="baseBackgroundColor" red="0.20000001789999999" green="0.32941177490000001" blue="0.65882354970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.15294116739999999" green="0.36470589040000001" blue="0.92941176889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="0Ec-ka-wlh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="76" id="4Av-TM-ut8"/>
+                <constraint firstItem="PGM-Am-w2N" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="76" id="6E8-mG-50i"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="PGM-Am-w2N" secondAttribute="trailing" constant="77" id="7LS-oy-BhW"/>
+                <constraint firstItem="xJB-Uj-LF1" firstAttribute="top" secondItem="0Ec-ka-wlh" secondAttribute="bottom" constant="208" id="DFu-hw-gZu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xJB-Uj-LF1" secondAttribute="trailing" constant="16" id="L68-zc-goe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="0Ec-ka-wlh" secondAttribute="bottom" constant="342" id="MGu-2X-O5Z"/>
+                <constraint firstItem="xJB-Uj-LF1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="NDW-q1-PDi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="PGM-Am-w2N" secondAttribute="bottom" constant="454" id="T9Y-Go-aHF"/>
+                <constraint firstItem="0Ec-ka-wlh" firstAttribute="top" secondItem="fci-BF-vyA" secondAttribute="bottom" constant="8" id="Z7J-Uo-6WZ"/>
+                <constraint firstItem="fci-BF-vyA" firstAttribute="top" secondItem="PGM-Am-w2N" secondAttribute="bottom" constant="42" id="bC8-vd-3Wf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fci-BF-vyA" secondAttribute="bottom" constant="371" id="boW-8Y-D8u"/>
+                <constraint firstItem="fci-BF-vyA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="87" id="eBF-7M-dRs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0Ec-ka-wlh" secondAttribute="trailing" constant="77" id="isp-Jx-jUx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fci-BF-vyA" secondAttribute="trailing" constant="52" id="psr-g2-a00"/>
+                <constraint firstItem="PGM-Am-w2N" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="177" id="tzh-Cg-A3e"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xJB-Uj-LF1" secondAttribute="bottom" constant="89" id="xJ9-9o-RTJ"/>
+            </constraints>
+            <point key="canvasLocation" x="64.885496183206101" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mail" width="607" height="420"/>
+    </resources>
+</document>
